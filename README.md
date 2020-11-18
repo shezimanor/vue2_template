@@ -10,9 +10,15 @@
 4. vue-router
 5. axios (vue-axios)
 
-## vscode extentions
+## Vscode Extentions
 1. Vetur
 2. ESlint
 3. Prettier - Code formatter
 4. Tailwind CSS IntelliSense
 5. Vue 2 Snippets
+
+## How to Use
+1. download `.zip` from [github](https://github.com/shezimanor/vue2_template)
+2. modify name in `package.json` & `package-lock.json`
+3. cml `npm install`
+4. run project with `vue cli`
