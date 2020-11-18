@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": "off" // 行內真實顏色標記是否要顯示
+}
