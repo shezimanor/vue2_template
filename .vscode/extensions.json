@@ -7,7 +7,7 @@
 		"octref.vetur",
 		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
-		"hollowtree.vue-snippets",
-		"bradlc.vscode-tailwindcss"
+		"bradlc.vscode-tailwindcss",
+		"sdras.vue-vscode-snippets"
 	]
 }
