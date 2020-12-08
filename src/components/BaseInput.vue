@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import formFieldMixin from '../mixins/formFieldMixin';
+import baseFieldMixin from '../mixins/baseFieldMixin';
 export default {
-  mixins: [formFieldMixin],
+  mixins: [baseFieldMixin],
   props: {
     inputClass: {
       type: [String, Array, Object]
