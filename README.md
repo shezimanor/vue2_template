@@ -5,8 +5,8 @@
 
 ## Included
 1. [nprogress](https://github.com/rstacruz/nprogress)
-2. [lodash](https://lodash.com/)
-3. [feather-icons](https://github.com/feathericons/feather#feather)
+2. [lodash](https://lodash.com/): Be used to register global component, so don't remove it.
+3. [feather-icons](https://github.com/feathericons/feather#feather): Be used to create `BaseIcon.vue`, so don't remove it.
 4. [vue-datepicker(@sum.cumo)](https://sumcumo.github.io/vue-datepicker/)
 5. [tailwind.css (with postcss + purgecss)](https://tailwindcss.com/docs)
 6. [vuex](https://vuex.vuejs.org/zh/)
