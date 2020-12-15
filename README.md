@@ -12,7 +12,8 @@
 6. [vuex](https://vuex.vuejs.org/zh/)
 7. [vue-router](https://router.vuejs.org/zh/)
 8. [axios (vue-axios)](https://github.com/axios/axios)
-9.  eslint + prettier
+9. [vuelidate](https://vuelidate.js.org/)
+10. eslint + prettier
 
 > Before you start the project, delete the libraries you wouldn't to use.
 
