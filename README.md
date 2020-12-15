@@ -25,6 +25,6 @@
 
 ## How to Use
 1. download `.zip` from [github](https://github.com/shezimanor/vue2_template)
-2. modify name in `package.json` & `package-lock.json`
+2. modify name in `package.json`
 3. cml `npm install`
 4. run project with `vue cli`

@@ -1,6 +1,10 @@
 <template>
   <!-- Now we can render the icon using the v-html attribute and the svg computed property: -->
-  <div class="icon-wrapper">
+  <div class="icon-wrapper"
+    :style="{
+      color: iconColor
+    }"
+  >
     <i :data-feather="name"></i>
     <slot></slot>
   </div>
@@ -26,6 +30,10 @@ export default {
     height: {
       type: [Number, String],
       default: 24
+    },
+    iconColor: {
+      type: String,
+      default: '#000'
     }
   },
   mounted() {
@@ -52,7 +60,6 @@ export default {
 .icon-wrapper {
   display: inline-flex;
   align-items: center;
-  color: rgba(0, 0, 0, 0.4);
   font-size: 1rem;
   font-weight: 600;
 }

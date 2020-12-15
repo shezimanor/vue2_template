@@ -29,4 +29,20 @@ const router = new VueRouter({
   routes
 });
 
+// router navigationguard
+router.beforeEach((to, from, next) => {
+  // console.log('router: beforeEach');
+  // redirect to login page if user is not logged in and trying to access a restricted page
+  const publicPages = ['/sign-in', '/sign-up', '/'];
+  const authRequired = !publicPages.includes(to.path);
+  const loggedIn = localStorage.getItem('user');
+  let userData = null;
+  if (loggedIn) {
+    userData = JSON.parse(loggedIn);
+    store.commit('user/SET_USER_DATA', userData);
+  }
+  if (authRequired && !userData.user) return next('/');
+  next();
+});
+
 export default router;
